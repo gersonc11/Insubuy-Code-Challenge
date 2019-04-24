@@ -3,19 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "latest",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "express-es6-template-engine": "^2.1.8",
     "morgan": "~1.9.0",
-    "body-parser": "latest",
-    "cors": "^2.8.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start node server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
